@@ -1,0 +1,18 @@
+.score
+{
+	width: 128px;
+}
+
+body
+{
+	background-color: #b0c4de;
+}
+tbody
+{
+	background-color: rgb(255, 255, 255);
+}
+
+.btn
+{
+   vertical-align:middle;
+}

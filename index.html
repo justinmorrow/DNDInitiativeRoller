@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>DnD Initiative Roller</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="scripts.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<h1>Dungeons and Dragons Initiative Roller</h1>
+		<p>This is the Dungeons and Dragons Initiative Roller.</p>
+		<p>Fill in the table below and hit Roll!</p>
+		<button id="roll" type="submit" onClick="roll_dice(this.id)">Roll!</button>
+		<button id="addCreature" type="button" onClick="add_row(this.id)">Add creature</button>
+		<table id="creatureTable" class="table">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Initiative</th>
+					<th>Roll</th>
+					<th>Advantage</th>
+				</tr>
+			</thead>
+			<tfoot>
+			</tfoot>
+			<tbody>
+			</tbody>
+		</table>
+	</body>
+</html>
